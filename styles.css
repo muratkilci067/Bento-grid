@@ -1,0 +1,360 @@
+    .attribution { 
+      font-size: 1.2rem;
+       text-align: center;
+       margin-top: 2rem;
+       }
+    .attribution a {
+       color: var(--Purple2);
+       font-weight: 500; 
+      }
+
+    *,
+    *::after,
+    *::before{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root{  
+    --Purple1: hsl(254, 88%, 90%);
+    --Purple2: hsl(256, 67%, 59%);
+    --Yellow1: hsl(31, 66%, 93%);
+    --Yellow2: hsl(39, 100%, 71%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+    }
+    body{
+      min-height: 100vh;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: lightgrey;
+      font-family:"DM Sans", sans-serif ;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 260px 280px 280px 250px;
+      grid-template-rows: 160px 160px 90px 160px 90px 160px;
+      gap: 2em;
+      grid-template-areas: 
+      "box-7 box-1 box-1 box-4"
+      "box-7 box-1 box-1 box-4"
+      "box-7 box-2 box-3 box-4"
+      "box-8 box-2 box-3 box-4"
+      "box-8 box-6 box-5 box-5"
+      "box-8 box-6 box-5 box-5";
+    }
+    .bento-1 {
+      background-color: var(--Purple2);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+    }
+    .bento-1 h1 {
+      font-size: 4rem;
+      text-align: center;
+      margin: 1rem;
+      color: var(--White);
+      font-weight: 400;
+      line-height: 3.7rem;
+    }
+    .bento-1 span {
+      color: var(--Yellow2);
+    }
+    .bento-1 p {
+      color: var(--White);
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .star-img{
+      width: 35%;
+      margin-top: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .bento-2{
+      background-color: var(--White);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .social-img {
+      width: 100%;
+      left: 4.7rem;
+      position: relative;
+    }
+    .bento-2 p {
+      font-size: 2.2rem;
+      padding: 1.5rem;
+      line-height: 2rem;
+      font-weight: 500;
+      letter-spacing: -1px;
+    }
+    .bento-3{
+      background-color: var(--Yellow2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .schedule-img {
+      width: 80%;
+      position: relative;
+      top: 0.9rem;
+    }
+    .bento-3 p {
+      font-size: 2.2rem;
+      margin: 5rem 1rem 0 1.7rem;
+      line-height: 2rem;
+      font-weight: 500;
+      letter-spacing: -1px;
+    }
+    .bento-4{
+      background-color: var(--Purple1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .schedule-posts {
+      width: 350px;
+      height: auto;
+      position: relative;
+      left: 5rem;
+    }
+    .bento-4 h2 {
+      font-size: 2.2rem;
+      margin: 1rem 1rem 0 1rem;
+      line-height: 2rem;
+      font-weight: 500;
+    }
+    .bento-4 p {
+      font-size: 1.1rem;
+      margin: 1rem 2.5rem 2rem 1rem;
+      font-weight: 500;
+      line-height: 1.3rem;
+    }
+    .bento-5{
+      background-color: var(--Purple2);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 0.5rem;
+      color: var(--White);
+    }
+    .followers-graph {
+      width: 45%;
+     margin: 1.9rem 0.5rem 1.5rem 2rem;
+    }
+    .bento-5 p {
+      font-size: 2.2rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+    .bento-6{
+      background-color: var(--White);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+    }
+    .icon-audience {
+      width: 70%;
+      margin-right: 2rem;
+    }
+    .bento-6 p {
+      font-size: 1.1rem;
+      margin: 1rem 3rem 2rem 1rem;
+    }
+    .bento-6 span {
+      margin-right: 4rem;
+      font-size: 4rem;
+      font-weight: 500;
+    }
+    .bento-7{
+      background-color: var(--Yellow1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+    }
+    .post-icon {
+      width: 70%;
+    }
+    .bento-7 p {
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 2rem;
+      margin: 2rem 1rem 2rem 2.4rem;
+      letter-spacing: -2px;
+    }
+    .bento-7 span {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: var(--Purple2);
+    }
+    .bento-8{
+      background-color: var(--Yellow2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 0.5rem;
+    }
+    .ai-content{
+      width: 85%;
+    }
+    .bento-8 p {
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 2rem;
+      margin: 0 3.5rem 0 1.5rem;
+      letter-spacing: -2px;
+    }
+    @media screen and (max-width:768px) {
+        
+     .attribution { 
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+   
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4"
+      "box-5"
+      "box-6"
+      "box-7"
+      "box-8";
+     width: 360px;
+    
+    }
+     
+    .bento-1 {
+      padding: 1rem 1rem 1rem 1rem;
+      margin-top: 1rem;
+    }
+    .bento-1 h1 {
+      font-size: 3.2rem;
+    }
+    .bento-1 p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .star-img{
+      width: 45%;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .social-img {
+      left: 1rem;
+    }
+    .bento-2 p {
+      font-size: 1.7rem;
+    }
+    .schedule-img {
+      width: 55%;
+      top: 1.2rem;
+      right: 4.1rem;
+    }
+    .bento-3 p {
+      font-size: 1.6rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 5rem;
+    }
+    .schedule-posts {
+      width: 320px;
+      height: auto;
+      position: relative;
+      left: 0;
+    }
+    .bento-4 h2 {
+      font-size: 1.5rem;
+      margin: 2rem 2rem 1rem 2rem;
+      line-height: 2rem;
+      font-weight: 600;
+    }
+    .bento-4 p {
+        text-align: center;
+      font-size: 1.1rem;
+      margin: 1.8rem 2.5rem;
+      font-weight: 500;
+      line-height: 1.3rem;
+    }
+    .bento-5{
+      display: flex;
+      flex-direction: column;
+    }
+    .followers-graph {
+      width: 65%;
+     margin: 1.2rem 1rem;
+    }
+    .bento-5 p {
+        text-align: center;
+      font-size: 1.7rem;
+      margin: 1rem 4rem 1.3rem 4rem;
+    }
+    .bento-6{
+      align-items: start;
+      padding-left: 1rem;
+    }
+    .icon-audience {
+      width: 50%;
+      margin-bottom: 1.5rem;
+    }
+    .bento-6 p {
+      font-size: 1.1rem;
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .bento-6 span {
+      margin-right: 4rem;
+      font-size: 3rem;
+      margin-top: 1rem;
+    }
+    .post-icon {
+      width: 50%;
+      position: relative;
+      right: 3.8rem;
+      margin-bottom: 2rem;
+    }
+    .bento-7 p {
+      font-size: 2.2rem;
+      margin: 1.5rem 0 2rem 1.8rem;
+    }
+    .bento-7 span {
+      font-size: 2.2rem;
+    }
+    .ai-content{
+      width: 65%;
+      position: relative;
+      right: 2.4rem;
+      margin-bottom: 1.8rem;
+    }
+    .bento-8 p {
+      font-size: 2rem;
+      margin: 1rem 3.5rem 1rem 1.5rem;
+    }
+  }
