@@ -20,7 +20,7 @@ Users should be able to:
 ---
 ##  Live Demo
 
-👉 [Live site URL here](https://muratkilci067.github.io/Testimonials-grid-section/)
+👉 [Live site URL here](https://muratkilci067.github.io/Bento-grid/)
 
 ## My process
 
